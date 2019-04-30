@@ -20,3 +20,6 @@ Thoughts for improvement.
 1. Should I leave the login as empty but just make time delay of 30 seconds to sing in?
 2. Find the difference bettween an item that is for sale or has been sold?
 3. Does the program get captcha? I havent seen it get caught yet.
+
+Known issues:
+1.  Program crashes if the item for sale has no likes.  I need to create a condition that if the item does not any likes to skip.  There is a heart on the main tile, and there is also a notification that pops up.  I will implement the first solution i find out first, and then document the other way to do it as well and implement it if it is better.
