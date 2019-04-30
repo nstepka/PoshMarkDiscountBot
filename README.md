@@ -1,5 +1,5 @@
 # PoshMarkDiscountBot
-This bot will auto sending a 10% discount to all likers of your poshmark items for sale.  Built on java and the selenium webdriver
+This bot will auto send a 10% discount to all likers of your poshmark items for sale.  Built on java and the selenium webdriver
 
 
 You will need to download Java 8, selenium, and an IDE, I used Eclipse.
