@@ -11,7 +11,7 @@ public class Bot {
 	/**
 	 Known issues:
 	Program crashes if the item for sale has no likes. I need to create a condition 
-	that if the item does not any likes to skip. 
+	that if the item has not any likes to skip. 
 	There is a heart on the main tile, and there is also a notification that pops up. 
 	I will implement the first solution i find out first, and then document the other
 	way to do it as well and implement it if it is better.
