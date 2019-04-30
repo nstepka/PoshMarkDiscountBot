@@ -34,8 +34,8 @@ public class Bot {
 		driver.findElement(By.id("login_form_password")).sendKeys(password);
 		driver.findElement(By.className("btn-primary")).click();
 
-		// enter your closet your
-		String closetURL = "https://poshmark.com/closet/fe_stepka";
+		// enter your closet URL
+		String closetURL = "https://poshmark.com/closet/your-closet";
 		driver.get(closetURL);
 
 		// I havent figured out how to only find none sold items yet so you
