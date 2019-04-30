@@ -46,7 +46,7 @@ public class Bot {
 		// have to manually enter how many for sale for now
 		int closetSize = 201;
 
-		for (int x = 165; x < closetSize; x++) {
+		for (int x = 0; x < closetSize; x++) {
 			scrollToButtom(driver);
 			List<WebElement> elements = driver.findElements(By.className("tile"));
 			System.out.println(elements.size());
