@@ -42,7 +42,7 @@ public class Bot {
 		// have to manually enter how many for sale for now
 		int closetSize = 201;
 
-		for (int x = 0; x < closetSize; x++) {
+		for (int x = 165; x < closetSize; x++) {
 			scrollToButtom(driver);
 			List<WebElement> elements = driver.findElements(By.className("tile"));
 			System.out.println(elements.size());
@@ -74,8 +74,7 @@ public class Bot {
 			Thread.sleep(1500);
 
 			// select the discount amount, i selected $1.80
-			// driver.findElement(By.xpath("//body/main[contains(@class,'experiences-header')]/div[@id='new_offer_bundle']/form[@id='bundle_offer_form']/div[@class='modal-body']/div[@class='offer-container']/div[@class='form-group']/div[@class='seller_shipping_discount_offer']/div[@class='col-form-control']/div[@class='dropdown
-			// open']/div[@class='dropdown-menu']/div[1]")).click();
+			driver.findElement(By.xpath("/html[1]/body[1]/main[1]/div[2]/form[1]/div[3]/div[2]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]")).click();
 			Thread.sleep(1500);
 
 			// select the submit button
