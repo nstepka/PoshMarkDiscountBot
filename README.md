@@ -17,7 +17,7 @@ You will need to update the emailAddress, password, closetSize and closetURL for
 
 Thoughts for improvement.  
 
-1. Should I leave the login as empty but just make time delay of 30 seconds to sing in?
+1. Should I leave the login as empty but just make time delay of 30 seconds to sign in?
 2. Find the difference bettween an item that is for sale or has been sold?
 3. Does the program get captcha? I havent seen it get caught yet.
 
