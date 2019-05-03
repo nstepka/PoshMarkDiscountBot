@@ -98,14 +98,10 @@ public class Bot {
 
 	public static void scrollToButtom(WebDriver driver) throws InterruptedException {
 
-		JavascriptExecutor js = ((JavascriptExecutor) driver);
-		js.executeScript("window.scrollTo(0, document.body.scrollHeight);");
-		Thread.sleep(2000);
-		js.executeScript("window.scrollTo(0, document.body.scrollHeight);");
-		Thread.sleep(2000);
-		js.executeScript("window.scrollTo(0, document.body.scrollHeight);");
-		Thread.sleep(2000);
-		js.executeScript("window.scrollTo(0, document.body.scrollHeight);");
-		Thread.sleep(2000);
+		for(int x = 0; x < 2; x++) {
+			JavascriptExecutor js = ((JavascriptExecutor) driver);
+			js.executeScript("window.scrollTo(0, document.body.scrollHeight);");
+			Thread.sleep(2000);
+		}
 	}
 }
