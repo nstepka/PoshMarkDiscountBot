@@ -26,14 +26,14 @@ public class Bot {
 		Thread.sleep(1000);
 
 		// posh store user email address youemailhere@makemoney.com
-		String emailAddress = "mafe.strait@gmail.com";
+		String emailAddress = "email@gmail.com";
 
 		driver.findElement(By.id("login_form_username_email")).sendKeys(emailAddress);
 		Thread.sleep(1000);
 		// login_form_password
 
 		// poshmark password yourpasswordhere
-		String password = "M@fe1234";
+		String password = "PASSWORD";
 
 		driver.findElement(By.id("login_form_password")).sendKeys(password);
 		Thread.sleep(1000);
